@@ -22,7 +22,7 @@ WORKDIR $APP_HOME
 # Removes output stream buffering, allowing for more efficient logging
 ENV PYTHONUNBUFFERED 1
 
-ENV PORT 8000
+ENV PORT 8080
 ENV PROJECT_ID villehollywood-com-br
 
 # Install dependencies
